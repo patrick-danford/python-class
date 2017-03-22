@@ -27,49 +27,101 @@ for count in xrange(10,0,-1):
 
 range(10,1,-1)"""
 
-#exersises
-for count in xrange(5):
-    print count + 1
-
-print "\n"
-
-for count in xrange(1,4):
-    print count
-
-print "\n"
-
-for count in xrange(1, 6, 2):
-    print count + 1
-
-print "\n"
-
-for name in range(100):
-    name = "Patrick" + '\n'
-    print name
-
-for characters in range (1,128):
-    print chr(characters)
-
-testString = "This is a test"
-for convert in testString:
-    print ord(convert)
-
-#ch 3.2
-
-amount = 24.325
-print "Your salary is $%7f" % amount
-
-x = 1
-y = 2
-z = 3
-print "%18d" % x, y, z
-
-salaries = [100, 200, 300, 400]
-
-for numbers in salaries:
-    print "%12.2f" % numbers
+# #exersises
+# for count in xrange(5):
+#     print count + 1
+#
+# print "\n"
+#
+# for count in xrange(1,4):
+#     print count
+#
+# print "\n"
+#
+# for count in xrange(1, 6, 2):
+#     print count + 1
+#
+# print "\n"
+#
+# for name in range(100):
+#     name = "Patrick" + '\n'
+#     print name
+#
+# for characters in range (1,128):
+#     print chr(characters)
+#
+# testString = "This is a test"
+# for convert in testString:
+#     print ord(convert)
+#
+# #ch 3.2
+#
+# amount = 24.325
+# print "Your salary is $%7f" % amount
+#
+# x = 1
+# y = 2
+# z = 3
+# print "%18d" % x, y, z
+#
+# salaries = [100, 200, 300, 400]
+#
+# for numbers in salaries:
+#     print "%12.2f" % numbers
 
 #Ch 3.3
 
-##
+#Ch 3.5
+
+# sum = 0
+# for count in range(1,100):
+#     sum += count
+#     print sum
+
+# sum = 0
+# while count <= 100:
+#     sum = sum + count
+#     count += 1
+#     print sum
+
+# for count in range(100):
+#     print count
+
+# count = 0
+# while count < 100:
+#     count += 1
+#     print count
+
+# for count in range (1,101):
+#     print count
+
+# count = 0
+# while count < 100:
+#     count += 1
+#     print count
+
+# count = 0
+# while True:
+#     if count < 100:
+#         count += 1
+#         print count
+#     else:
+#         break
+
+# for count in range(100,0,-1):
+#     print count
+
+# count = 101
+# while count > 1:
+#     count -= 1
+#     print count
+
+
+N = input ("Enter a number: ")
+product = 0
+while product < N:
+    sum = N * (product + 1)
+    print sum
+
+
 
