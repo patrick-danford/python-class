@@ -13,3 +13,5 @@ print stock_prices_yesterday.index(maxvalue)
 
 
 #for i in stock_prices_yesterday:
+
+

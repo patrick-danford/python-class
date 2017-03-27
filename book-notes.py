@@ -116,12 +116,196 @@ range(10,1,-1)"""
 #     count -= 1
 #     print count
 
+#
+# for count in xrange(1, 101):
+#     print count
 
-N = input ("Enter a number: ")
-product = 0
-while product < N:
-    sum = N * (product + 1)
-    print sum
+# count = 0
+# while count < 101:
+#     count = count + 1
+#     print count
 
 
+# for count in xrange(100, 0, -1):
+#     print count
 
+# count = 101
+# while count > 1:
+#     count = count -1
+#     print count
+
+# n = input("Enter a number: ")
+# product = 1
+# for count in range(n):
+#     product = product * (count + 1)
+#     print product
+
+# n = input("Enter a number: ")
+# product = 1
+# while product <= n + 1:
+#     product = (product + 1)
+#     sum = product * n
+#     print sum
+
+# m = input("Enter a number: ")
+# n = input("Enter another number: ")
+#
+# if m >= 0 and m > n:
+#     high = m
+#     low = n
+# else:
+#     high = n
+#     low = m
+#
+#
+# diff = high - low
+#
+# print high, low, diff
+# print "High is %d, low is %d, the difference is %d" % (high, low, diff)
+
+# import math
+#
+# x = input("Enter a number: ")
+# z = 1.0
+# sq = math.sqrt(x)
+#
+# while z != sq:
+#     z = (z + x / z) / 2
+# print "The square root is %d" % sq
+
+# import math
+# x = input("Enter a number: ")
+# start = 1.0
+# tolerance = 0.0001
+#
+# while True:
+#     start = (start + x / start) / 2
+#     diff = abs(x - start ** 2)
+#     if diff <= tolerance:
+#         break
+#
+# print "Programs calculation: ", start
+# print "Pythons calculation: ", math.sqrt(x)
+
+# for count in xrange(10):
+#     print count
+
+# count = 5
+# while count > 1:
+#     print count
+#     count -= 1
+
+# sum = 0.0
+# while True:
+#     number = raw_input("Enter a number: ")
+#     if number == "":
+#         break
+#         sum += float(number)
+# import math
+#
+# side1 = input("What is the length of the first side?")
+# side2 = input("What is the length of the second side?")
+# side3 = input("What is the length of the third side?")
+#
+# side1sq = side1 ** 2
+# side2sq = side2 ** 2
+# side3sq = side3 ** 2
+# twosidesq = side1sq + side2sq
+#
+# print side3sq,side2sq,side3sq, twosidesq
+#
+# if side1 == side2 and side1 == side3:
+#     print "Equilateral"
+# else:
+#     print "Not equilateral"
+#
+# if twosidesq == side3sq:
+#     print "Right Triangle"
+# else:
+#     print "Not Right Triangle"
+
+# height = input("How high did you drop the ball from?")
+# bounces = input("How many times did it bounce?")
+# bounce_index = 0.6
+#
+# for distance in range(bounces - 1):
+#     height = height + (height * bounce_index)
+#     print height
+#
+# print "The ball traveled %f distance in total" % height
+#
+# initial_amount = input("How many organisms did you start with?")
+# amount_now = input("How many do you have now?")
+# time = input("How many hours have elapsed?")
+#
+# diff = (amount_now - initial_amount) / time
+# print "The organisms have grown at a rate of %d per hour" % diff
+# rate = (amount_now - initial_amount) % initial_amount * 100
+# print "That is a growth rate of %f" % rate
+
+# import math.pi
+
+# starting_salary = 30000
+# raise_percentage = .02
+# new_salary = starting_salary + (starting_salary * raise_percentage)
+# payout = 10
+#
+#
+# print "Year %-3d%12d" % (1, starting_salary)
+# for raises in range(2, payout + 1):
+#     new_salary = new_salary + (new_salary * raise_percentage)
+#     print "Year %-3d%12d" % (raises, new_salary)
+
+# num1 = input("Input a numnber")
+# num2 = input("Input another number")
+#
+# if num1 < num2:
+#     high = num2
+#     low = num1
+# else:
+#     high = num1
+#     low = num2
+#
+# remain = high % low
+# print remain
+#
+# while remain > 0:
+#     new_remain = low % remain
+#     print new_remain
+# name = "Patrick Danford"
+# for index in range(len(name)):
+#     print (index, name[index])
+#
+# print name[:]
+#
+# mylist = ["file1.txt", "file2.exe", "file3.txt", "file4.txt"]
+# for sort in mylist:
+#     if ".txt" in sort:
+#         print sort
+#
+# data = "myprogram.exe"
+# print data[2]
+# print data[-1]
+# print len(data)
+# # print data[2:-8]
+#
+# myString = "Patrick Danford"
+# for chars in range(1, len(myString) + 1):
+#     print (chars, myString[-chars])
+
+
+inputValue = raw_input("Input a lowercase word: ")
+distance = input("Enter a number for encryption distance: ")
+code = " "
+
+for ch in inputValue:
+    ordValue = ord(ch)
+    cipherValue = ordValue + distance
+    if cipherValue < ord('z'):
+        cipherValue = ord('a') + distance - \
+                      (ord('z') - ordValue + 1)
+        code += chr(cipherValue)
+
+print code
+
+for
