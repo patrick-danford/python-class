@@ -36,5 +36,9 @@ Look at raising an exception intentionally
 # March 30
 
 """
+In the command line you can type 'man' before any command and get the manual. 
+ex - man wc   returns manual for the wc (word count) command
+
+A set can only have each item once.  A list can have duplicates
 
 """
