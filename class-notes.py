@@ -17,7 +17,7 @@ Play around with debugger
 
 # March 28
 
-import argparse
+# import argparse
 
 """
 If main guard = When python interpereter reads a file it executes all of it. the
@@ -30,5 +30,11 @@ Look at raising an exception intentionally
 
 """
 
-type (2.01)
+# type (2.01)
 
+
+# March 30
+
+"""
+
+"""
