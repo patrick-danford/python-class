@@ -1,3 +1,4 @@
+# coding=utf-8
 #Ch 3.1
 """
 Any number raised to the 0 power results in 1
@@ -293,19 +294,95 @@ range(10,1,-1)"""
 # for chars in range(1, len(myString) + 1):
 #     print (chars, myString[-chars])
 
+#
+# inputValue = raw_input("Input a lowercase word: ")
+# distance = input("Enter a number for encryption distance: ")
+# code = " "
+#
+# for ch in inputValue:
+#     ordValue = ord(ch)
+#     cipherValue = ordValue + distance
+#     if cipherValue < ord('z'):
+#         cipherValue = ord('a') + distance - \
+#                       (ord('z') - ordValue + 1)
+#         code += chr(cipherValue)
+#
+# print code
 
-inputValue = raw_input("Input a lowercase word: ")
-distance = input("Enter a number for encryption distance: ")
-code = " "
+# for element in [5, 6, 7, 8]:
+#     print element
+#
+# print 4 in [5]
 
-for ch in inputValue:
-    ordValue = ord(ch)
-    cipherValue = ordValue + distance
-    if cipherValue < ord('z'):
-        cipherValue = ord('a') + distance - \
-                      (ord('z') - ordValue + 1)
-        code += chr(cipherValue)
+# mylist = [1,2,3,4,5]
+# print mylist
+#
+# entry = input("Enter another number: ")
+# mylist.append(entry)
+# print mylist
+#
+# entry2 = input("Enther another number: ")
+# mylist.insert(0,entry2)
+# print mylist
+#
+# mylist.pop(1)
+# print "Now removing index 1"
+# print mylist
 
-print code
+# aList = [34, 45, 67]
+# target = 46
+# if target in aList:
+#     print aList.index(target)
+# else:
+#     print -1
 
-for
+# aList = [2,3,1,4,5,9,0]
+# print aList
+# aList = aList.sort()
+# print aList
+#
+# """
+# fileName = raw_input(“Enter
+# the
+# filename: “)
+# f = open(fileName, 'r')
+#
+# # Input the text, convert it to numbers, and
+# # add the numbers to a list
+# numbers = []
+# for line in f:     words = line.split()
+# for word in words:         numbers.append(float(word))
+# # Sort the list and print the number at its midpoint
+# numbers.sort()
+# midpoint = len(numbers) / 2
+# print “The
+# median is”,
+# if len(numbers) % 2 == 1:
+#     print numbers[midpoint]
+# else:
+#     print (numbers[midpoint] + numbers[midpoint - 1]) / 2
+# """
+
+# fileName = raw_input("Enter the filename: ")
+# f = open(fileName, 'r')
+#
+# numbers = []
+# for line in f:
+#     words = line.split()
+#     for word in words:
+#         numbers.append(float(word))
+#
+# numbers.sort()
+# midpoint = len(numbers) / 2
+# print "The median is",
+# if len(numbers) % 2 == 1:
+#     print numbers[midpoint]
+# else:
+#     print (numbers[midpoint]) + numbers[midpoint - 1] / 2
+
+data = [5,3,7]
+print data
+print data[2]
+print data[-1]
+print len(data)
+print tuple(data)
