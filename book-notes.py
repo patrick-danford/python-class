@@ -380,9 +380,9 @@ range(10,1,-1)"""
 # else:
 #     print (numbers[midpoint]) + numbers[midpoint - 1] / 2
 
-data = [5,3,7]
-print data
-print data[2]
-print data[-1]
-print len(data)
-print tuple(data)
+# data = [5,3,7]
+# print data
+# print data[2]
+# print data[-1]
+# print len(data)
+# print tuple(data)
