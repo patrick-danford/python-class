@@ -43,5 +43,9 @@ A set can only have each item once.  A list can have duplicates
 
 """
 
-#April 4
+#April 6
+"""
+cygwin, linux terminal for windows
+
+"""
 
