@@ -46,6 +46,7 @@ A set can only have each item once.  A list can have duplicates
 #April 6
 """
 cygwin, linux terminal for windows
+Look ar geek stuff, 50 most commonly used commands
 
 """
 
