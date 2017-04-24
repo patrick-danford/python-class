@@ -379,10 +379,55 @@ range(10,1,-1)"""
 #     print numbers[midpoint]
 # else:
 #     print (numbers[midpoint]) + numbers[midpoint - 1] / 2
+#
+# print numbers
 
 # data = [5,3,7]
+# # print data[2]
+# # print data[-1]
+# # print len(data)
+# # print tuple(data)
+# data[0] = -5
+# data.append(10)
+# data.insert(2,22)
+# data.pop(1)
+# newData = [40,50,60,70]
+# data = data + newData
 # print data
-# print data[2]
-# print data[-1]
-# print len(data)
-# print tuple(data)
+# print data.index(7)
+# print data.sort()
+# print data
+
+
+# aList = [34,45,67]
+# target=34
+# if target in aList:
+#     print aList.index(target)
+# else:
+#     print -1
+
+#
+# import random
+# f = open("integers.txt", 'w')
+# for count in xrange(500):
+#     number = random.randint(1, 500)
+#     f.write(str(number) + '\n')
+# f.close()
+#
+# g = open("integers.txt", 'r')
+# sum = 0
+# for line in g:
+#     line = line.strip()
+#     number = int(line)
+#     sum += number
+# print sum
+
+# def even(number):
+#     if int(number) % 2 == 0:
+#         print "even"
+#     else:
+#         print "odd"
+#
+# even(raw_input("enter a number: "))
+
+
