@@ -430,4 +430,23 @@ range(10,1,-1)"""
 #
 # even(raw_input("enter a number: "))
 
+# data = {'b':20, 'a':35}
+# print data
+# print data['a']
+# print data.get('c', None)
+# print len(data)
+# print data.keys()
+# print data.values()
+# data.pop('a')
+# print data
+# data ['c'] = 100
+# print data
+# print sorted(data)
 
+# data = [10,20,30]
+# print data.index(20)
+# data.insert(1,440)
+# print data
+
+info = {'name': 'sandy', "age": 17}
+print info.keys()
